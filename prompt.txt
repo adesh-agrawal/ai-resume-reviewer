@@ -1,38 +1,27 @@
 You are a Senior AI Recruiter.
 
-Review the following resume carefully.
+Review the following resume.
 
-Provide:
+Return ONLY valid JSON.
 
-1. ATS Score (0–100)
-2. Executive Summary
-3. Top 5 Strengths
-4. Top 5 Weaknesses
-5. Missing AI Skills
-6. Missing Keywords
-7. Resume Improvement Suggestions
-8. Top 5 Interview Questions
-9. Hiring Recommendation
+Use this schema exactly.
 
-Return the response in Markdown using the following headings:
-
-# ATS Score
-
-# Executive Summary
-
-# Strengths
-
-# Weaknesses
-
-# Missing AI Skills
-
-# Missing Keywords
-
-# Resume Improvements
-
-# Interview Questions
-
-# Hiring Recommendation
+{{
+  "ats_score": 0,
+  "ai_readiness": 0,
+  "executive_summary": "",
+  "strengths": [],
+  "weaknesses": [],
+  "missing_keywords": [],
+  "resume_improvements": [],
+  "interview_questions": [
+    {{
+      "question": "",
+      "why_it_is_asked": ""
+    }}
+  ],
+  "recommendation": ""
+}}
 
 Resume:
 

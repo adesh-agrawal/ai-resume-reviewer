@@ -1,50 +1,93 @@
 # 🤖 AI Resume Reviewer
+An AI-powered Resume Reviewer built using **Python**, **GPT-5**, **Prompt Engineering**, and **PDF Processing**.
 
-An AI-powered Resume Reviewer built using GPT-5, Python, and Prompt Engineering.
+The application analyzes PDF resumes, evaluates ATS readiness, identifies skill gaps, and generates interview questions for AI Product Management roles.
 
+---
 ## Features
-- Reads PDF resumes
-- Extracts resume content automatically
-- Calculates ATS score
-- Highlights strengths
-- Identifies weaknesses
-- Suggests missing AI skills
-- Provides hiring recommendation
+✅ Read PDF resumes
+✅ Extract resume text automatically
+✅ AI-powered ATS scoring
+✅ Executive Summary
+✅ Strength Analysis
+✅ Weakness Analysis
+✅ Missing AI Skills
+✅ Missing Keywords
+✅ Resume Improvement Suggestions
+✅ Interview Questions
+✅ Hiring Recommendation
+---
 
 ## Tech Stack
 - Python
-- OpenAI GPT-5 API
+- GPT-5 API
+- OpenAI SDK
 - PyPDF
 - Prompt Engineering
-- Git & GitHub
+- Git
+- GitHub
+
+---
+
+## Architecture
+PDF Resume
+↓
+PyPDF
+↓
+Text Extraction
+↓
+Prompt Template
+↓
+GPT-5
+↓
+Resume Analysis
+
+---
 
 ## Folder Structure
-```
-Resumes/
-Outputs/
+```text
 app.py
 prompt.txt
+Resumes/
+Outputs/
+README.md
+.env.example
 requirements.txt
 ```
-## Setup
+---
+
+## Installation
 ```bash
 pip install -r requirements.txt
 ```
-Create a `.env` file
+Create
 ```
-OPENAI_API_KEY=your_api_key
+.env
 ```
+
+```
+OPENAI_API_KEY=YOUR_KEY
+```
+
 Run
 
 ```bash
 python app.py
 ```
-## Future Improvements
-- Streamlit UI
-- Multi-resume analysis
-- Resume ranking
-- Job description matching
-- Export to PDF
+
 ---
 
-Built by **Adesh Agrawal**
+## Future Roadmap
+- Streamlit UI
+- Job Description Matching
+- Resume Ranking
+- Multi Resume Comparison
+- Export PDF Report
+- AI Interview Coach
+
+---
+
+## Author
+**Adesh Agrawal**
+Senior Product Manager
+Building AI Products
